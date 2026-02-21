@@ -1,0 +1,2745 @@
+Program State 0
+ExeStack_0:
+integer v=(integer value) 0
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(print(v); x = (x - (integer value) 1); print(x))
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(print(v); x = (x - (integer value) 1); print(x))
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 1
+ExeStack_1:
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+(integer value) 2
+______________
+
+
+Program State 0
+ExeStack_0:
+integer v=(integer value) 0
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(print(v); x = (x - (integer value) 1); print(x))
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(print(v); x = (x - (integer value) 1); print(x))
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 1
+ExeStack_1:
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+(integer value) 2
+______________
+
+
+Program State 0
+ExeStack_0:
+integer v=(integer value) 0
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer x=(integer value) 0
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 3
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 0
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+x = (integer value) 2
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+repeat fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1) as (v == (integer value) 0)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(print(v); x = (x - (integer value) 1); print(x))
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(print(v); x = (x - (integer value) 1); print(x))
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (v + (integer value) 1)
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+while ((v == (integer value) 0)) fork(print(v); x = (x - (integer value) 1); print(x)); v = (v + (integer value) 1)
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+x = (x - (integer value) 1)
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 1
+ExeStack_1:
+print(x)
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 1
+ExeStack_1:
+
+SymTable_1:
+v -> (integer value) 3
+x -> (integer value) 1
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+nop
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+print(x)
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v -> (integer value) 4
+x -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+(integer value) 3
+(integer value) 1
+(integer value) 2
+______________
+
+

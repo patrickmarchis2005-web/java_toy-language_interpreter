@@ -1,0 +1,172 @@
+Program State 0
+ExeStack_0:
+integer a=(integer value) 0
+integer b=(integer value) 0
+a = ((integer value) 2 + ((integer value) 3 * (integer value) 5))
+b = (a + (integer value) 1)
+print(b)
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer b=(integer value) 0
+a = ((integer value) 2 + ((integer value) 3 * (integer value) 5))
+b = (a + (integer value) 1)
+print(b)
+
+SymTable_0:
+a -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer b=(integer value) 0
+a = ((integer value) 2 + ((integer value) 3 * (integer value) 5))
+b = (a + (integer value) 1)
+print(b)
+
+SymTable_0:
+a -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+a = ((integer value) 2 + ((integer value) 3 * (integer value) 5))
+b = (a + (integer value) 1)
+print(b)
+
+SymTable_0:
+a -> (integer value) 0
+b -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+a = ((integer value) 2 + ((integer value) 3 * (integer value) 5))
+b = (a + (integer value) 1)
+print(b)
+
+SymTable_0:
+a -> (integer value) 0
+b -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+b = (a + (integer value) 1)
+print(b)
+
+SymTable_0:
+a -> (integer value) 17
+b -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+b = (a + (integer value) 1)
+print(b)
+
+SymTable_0:
+a -> (integer value) 17
+b -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(b)
+
+SymTable_0:
+a -> (integer value) 17
+b -> (integer value) 18
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(b)
+
+SymTable_0:
+a -> (integer value) 17
+b -> (integer value) 18
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+a -> (integer value) 17
+b -> (integer value) 18
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 18
+______________
+
+

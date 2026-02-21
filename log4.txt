@@ -1,0 +1,366 @@
+Program State 0
+ExeStack_0:
+string varf=(string value) 
+varf = (string value) test.in
+openRFile(varf)
+integer varc=(integer value) 0
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+varf = (string value) test.in
+openRFile(varf)
+integer varc=(integer value) 0
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) 
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+varf = (string value) test.in
+openRFile(varf)
+integer varc=(integer value) 0
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) 
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+openRFile(varf)
+integer varc=(integer value) 0
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+openRFile(varf)
+integer varc=(integer value) 0
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer varc=(integer value) 0
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer varc=(integer value) 0
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 0
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+readFile(varf, varc)
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 0
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 15
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(varc)
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 15
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 15
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+(integer value) 15
+______________
+
+
+Program State 0
+ExeStack_0:
+readFile(varf, varc)
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 15
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+(integer value) 15
+______________
+
+
+Program State 0
+ExeStack_0:
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 50
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+(integer value) 15
+______________
+
+
+Program State 0
+ExeStack_0:
+print(varc)
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 50
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+(integer value) 15
+______________
+
+
+Program State 0
+ExeStack_0:
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 50
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+(integer value) 15
+(integer value) 50
+______________
+
+
+Program State 0
+ExeStack_0:
+closeRFile(varf)
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 50
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+(integer value) 15
+(integer value) 50
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+varf -> (string value) test.in
+varc -> (integer value) 50
+
+Heap:
+
+FileTable:
+(string value) test.in -> java.io.BufferedReader@421faab1
+
+Out:
+(integer value) 15
+(integer value) 50
+______________
+
+

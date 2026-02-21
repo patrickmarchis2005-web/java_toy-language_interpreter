@@ -1,0 +1,5904 @@
+Program State 0
+ExeStack_0:
+Ref integer v1=(0, integer)
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 3
+ExeStack_3:
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 300
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 300
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+(integer value) 3000
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v1=(0, integer)
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 3
+ExeStack_3:
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 300
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 300
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+(integer value) 3000
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v1=(0, integer)
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v2=(0, integer)
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v3=(0, integer)
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+integer id=(integer value) 0
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+id = (integer value) 5
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v1, (integer value) 2)
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v2, (integer value) 3)
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (0, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v3, (integer value) 4)
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (0, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+newBarrier(id, rH(v2))
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 5
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v1, (rH(v1) * (integer value) 10)); nop; nop; print(rH(v1)))
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); wH(v2, (rH(v2) * (integer value) 10)); nop; nop; nop; wH(v2, (rH(v2) * (integer value) 10)); wH(v2, (rH(v2) * (integer value) 10)); print(rH(v2)))
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : []
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(await(id); print((rH(v3) * (integer value) 40)))
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v3))
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2]
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+await(id)
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+await(id)
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+await(id)
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(v1, (rH(v1) * (integer value) 10))
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 3
+ExeStack_3:
+print((rH(v3) * (integer value) 40))
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 2
+1 -> (integer value) 3
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 3
+ExeStack_3:
+
+SymTable_3:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+nop
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(v1))
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 2
+ExeStack_2:
+nop
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+______________
+
+
+Program State 1
+ExeStack_1:
+
+SymTable_1:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 30
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 300
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+wH(v2, (rH(v2) * (integer value) 10))
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 300
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+print(rH(v2))
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+______________
+
+
+Program State 2
+ExeStack_2:
+
+SymTable_2:
+v1 -> (0, integer)
+id -> (integer value) 0
+v2 -> (1, integer)
+v3 -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (integer value) 3000
+2 -> (integer value) 4
+
+FileTable:
+
+BarrierTable:
+0 -> 3 : [1, 2, 3]
+
+Out:
+(integer value) 4
+(integer value) 160
+(integer value) 20
+(integer value) 3000
+______________
+
+

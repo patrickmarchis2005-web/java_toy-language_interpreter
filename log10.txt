@@ -1,0 +1,446 @@
+Program State 0
+ExeStack_0:
+integer v=(integer value) 0
+Ref integer a=(0, integer)
+v = (integer value) 10
+new(a, (integer value) 22)
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer a=(0, integer)
+v = (integer value) 10
+new(a, (integer value) 22)
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer a=(0, integer)
+v = (integer value) 10
+new(a, (integer value) 22)
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 10
+new(a, (integer value) 22)
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 10
+new(a, (integer value) 22)
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(a, (integer value) 22)
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(a, (integer value) 22)
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 22
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+fork(wH(a, (integer value) 30); v = (integer value) 32; print(v); print(rH(a)))
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 22
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 22
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(a, (integer value) 30)
+v = (integer value) 32
+print(v)
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 22
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(v)
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 22
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 1
+ExeStack_1:
+wH(a, (integer value) 30)
+v = (integer value) 32
+print(v)
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 22
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+______________
+
+
+Program State 1
+ExeStack_1:
+v = (integer value) 32
+print(v)
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(a))
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+______________
+
+
+Program State 1
+ExeStack_1:
+v = (integer value) 32
+print(v)
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+a -> (0, integer)
+v -> (integer value) 10
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+(integer value) 30
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 32
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+(integer value) 30
+______________
+
+
+Program State 1
+ExeStack_1:
+print(v)
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 32
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+(integer value) 30
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 32
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+(integer value) 30
+(integer value) 32
+______________
+
+
+Program State 1
+ExeStack_1:
+print(rH(a))
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 32
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+(integer value) 30
+(integer value) 32
+______________
+
+
+Program State 1
+ExeStack_1:
+
+SymTable_1:
+a -> (0, integer)
+v -> (integer value) 32
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 10
+(integer value) 30
+(integer value) 32
+(integer value) 30
+______________
+
+

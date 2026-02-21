@@ -1,0 +1,228 @@
+Program State 0
+ExeStack_0:
+Ref integer v=(0, integer)
+new(v, (integer value) 20)
+Ref Ref integer a=(0, Ref integer)
+new(a, v)
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 20)
+Ref Ref integer a=(0, Ref integer)
+new(a, v)
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 20)
+Ref Ref integer a=(0, Ref integer)
+new(a, v)
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref Ref integer a=(0, Ref integer)
+new(a, v)
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref Ref integer a=(0, Ref integer)
+new(a, v)
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(a, v)
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+a -> (0, Ref integer)
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(a, v)
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+a -> (0, Ref integer)
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+a -> (1, Ref integer)
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (0, integer)
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 30)
+print(rH(rH(a)))
+
+SymTable_0:
+a -> (1, Ref integer)
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (0, integer)
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(rH(a)))
+
+SymTable_0:
+a -> (1, Ref integer)
+v -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (0, integer)
+2 -> (integer value) 30
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(rH(a)))
+
+SymTable_0:
+a -> (1, Ref integer)
+v -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (0, integer)
+2 -> (integer value) 30
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+a -> (1, Ref integer)
+v -> (2, integer)
+
+Heap:
+0 -> (integer value) 20
+1 -> (0, integer)
+2 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+

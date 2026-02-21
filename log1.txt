@@ -1,0 +1,93 @@
+Program State 0
+ExeStack_0:
+integer v=(integer value) 0
+v = (integer value) 2
+print(v)
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 2
+print(v)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+v = (integer value) 2
+print(v)
+
+SymTable_0:
+v -> (integer value) 0
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(v)
+
+SymTable_0:
+v -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(v)
+
+SymTable_0:
+v -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v -> (integer value) 2
+
+Heap:
+
+FileTable:
+
+Out:
+(integer value) 2
+______________
+
+

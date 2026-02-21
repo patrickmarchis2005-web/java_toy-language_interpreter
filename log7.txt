@@ -1,0 +1,354 @@
+Program State 0
+ExeStack_0:
+Ref integer v=(0, integer)
+new(v, (integer value) 20)
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 20)
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 20)
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 20
+(integer value) 35
+______________
+
+
+Program State 0
+ExeStack_0:
+Ref integer v=(0, integer)
+new(v, (integer value) 20)
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 20)
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+new(v, (integer value) 20)
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+print(rH(v))
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+______________
+
+
+Program State 0
+ExeStack_0:
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+wH(v, (integer value) 30)
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 20
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+print((rH(v) + (integer value) 5))
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 20
+______________
+
+
+Program State 0
+ExeStack_0:
+
+SymTable_0:
+v -> (0, integer)
+
+Heap:
+0 -> (integer value) 30
+
+FileTable:
+
+Out:
+(integer value) 20
+(integer value) 35
+______________
+
+
